@@ -1,0 +1,62 @@
+h1 { font-size: 48px;}
+/* @group Blink */
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+/* @end */
+
+.epilepsy {
+	background-color: #FFF;
+	-webkit-animation: random .5s infinite;
+	animation: random .5s infinite;
+}
+body { padding: 100px;
+	margin: 0px;
+	background: url (images/Battlefield-1-Cover-Art.jpg) top right no-repeat;
+	background-postition: top;}
+
+ @keyframes random {
+	15% { background-color: red; color:blue; }
+	30% { background-color: yellow; color:green;}
+	45% { background-color: green; color: yellow;}
+	60% { background-color: blue;color: red; }
+	75% { background-color: white; color:black;}
+	90% { background-color: purple; color:pink;}
+	100% {background-color: pink;color:purple;}
+
+
